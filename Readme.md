@@ -1,67 +1,65 @@
-# Coding Assessment L-2 Code Submission Process with Boilerplate
+# Puneeth Assessment Project
 
-Welcome to the coding assessment l2. We are excited to see your skills in action. Please follow the instructions below to submit your solution.
+This repository contains the code for the Level 2Assessment Level 2 project. The goal was to create a product card with specific data elements, implement tab switching functionality, calculate the percentage off using JavaScript, and integrate basic Shopify page functionality.
 
-## Getting Started
+## Features Implemented
 
-1. **Clone or Download:**
-   - If using Git, clone the repository using the following command:
-     ```
-     git clone https://github.com/mmdmrishabh/Coding-assessment-l2-Boilerplate-code.git
-     ```
-   - Alternatively, download the code as a ZIP file and extract it.
+- **Product Card:**
 
-2. **Navigate to Project Directory:**
+  - Displayed product information including image, badge, product title, vendor, price, and compare at price.
+  - Calculated the percentage off using JavaScript.
 
-3. **Explore the Structure:**
-Take a moment to review the project structure:
+- **Tab Switching:**
 
-        project-root/
-        |-- index.html
-        |-- style.css
-        |-- script.js
-        |-- README.md
-- `index.html`: Main HTML file for your project.
-- `style.css`: CSS file for styling.
-- `script.js`: JavaScript file for scripting logic.
-- `README.md`: Documentation for your project.
-  
-> **Important:** Avoid using additional files or a single file for your code. Feel free to organize asset files by creating a separate folder.
+  - Implemented tab switching functionality for "Men," "Women," and "Kids" tabs.
+  - Updated the displayed product cards dynamically based on the selected tab.
 
-## Development and Testing
+- **Add to Cart Button:**
 
-4. **Start Working:**
-- Read all requirements that are shared with design files.
-- Open `index.html` in your browser to view the initial state of the project, And start coding.
-- Modify the `style.css` and `script.js` files to implement your solution.
-5. **Testing:**
-- Test your code to ensure it produces the expected output.
-- Ensure that the console (Developer Tools) does not display any errors.
+  - Created a visual "Add to Cart" button.
 
+- **Responsive Design:**
+  - Ensured a user-friendly interface with responsiveness for both mobile and desktop devices.
 
----
-## Submission Guidelines
+## API Fetch and Data Retrieval
 
-### Option 1: GitHub Repository
+- **Dynamic Content through API:**
 
-1. Create a new public repository on GitHub.
-2. Upload your project files (index.html, style.css, script.js) to the repository.
-3. Write a brief description of your project in the README.md file.
-4. Share the repository URL with us.
+  - Implemented an API fetch request to retrieve product data dynamically.
+  - a Shopify API to fetch relevant product details, such as product image, title, vendor, price, and compare at price.
 
-### Option 2: ZIP File on Google Drive
+- **Data Parsing and Integration:**
+  - Performed data parsing to extract necessary information from the API response.
+  - Integrated the retrieved data seamlessly into the product cards, ensuring that the displayed information remains up-to-date and reflects changes on the server.
 
-1. Create a ZIP file of your entire project.
-2. Upload the ZIP file to your Google Drive.
-3. Share the public link to the ZIP file via email.
+## DOM Manipulation
 
-## Hosting (Bonus)
-You can earn bonus points by hosting your project on a free hosting platform such as GitHub Pages or Netlify.
+- **DOM Manipulation:**
 
-## Important Notes
+  - Employed DOM manipulation techniques to dynamically update the product cards and other relevant elements based on the fetched data.
+  - Ensured a smooth user experience by dynamically adjusting content without requiring a full page reload.
 
-- Do not use any third-party libraries or frameworks.
-- Ensure that your project works as intended and is free from errors.
-- Make sure to include clear instructions on how to run your project (if necessary).
+- **Interactive User Interface:**
 
-Feel free to reach out to invigilator at `rishabh@marmeto.com` if you have any questions. Good luck! We look forward to reviewing your submission.
+  - Implemented interactive features using DOM manipulation, such as highlighting selected tabs, updating the cart count, and providing real-time feedback on user interactions.
+
+- **Error Handling:**
+  - Incorporated error-handling mechanisms for API requests; any errors that occur are printed in the console window.
+
+## Bonus Points- Deployment
+
+The project has been successfully deployed using Netlify. You can access the deployed project through the following link: [Puneeth Assessment Project](https://main--puneethassessment.netlify.app/).
+
+## Personal Project
+
+I have also included a link to my recent project, a dynamic web application: [Explore Cache](https://explore-cache-lphd.onrender.com/).
+
+## Contact Information
+
+Looking forward for the opportunity
+
+- Email: puneethspunii@gmail.com
+- Resume: [Resume Link](https://drive.google.com/file/d/1og8VhAaqW_JquC8AROAqpPhJyH_FAb_C/view?usp=drive_link)
+- LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/puneeth-s-186078260/)
+
+I appreciate your time and consideration. Looking forward to potential opportunities.
